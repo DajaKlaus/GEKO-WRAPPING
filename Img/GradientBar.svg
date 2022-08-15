@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="masthead_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 10" enable-background="new 0 0 1280 10" preserveAspectRatio="none">
+	
+	<style>
+		@keyframes leftGradient {
+			0% { stop-color: rgb(159,53,147); }
+			9% { stop-color: rgb(10,117,231); }
+			18% { stop-color: rgb(58,126,192); }
+			27% { stop-color: rgb(97,197,191); }
+			36% { stop-color: rgb(0,150,128); }
+			45% { stop-color: rgb(108,130,69); }
+			54% { stop-color: rgb(205,219,40); }
+			63% { stop-color: rgb(255,199,8); }
+			72% { stop-color: rgb(236,30,36); }
+			81% { stop-color: rgb(184,32,37); }
+			90% { stop-color: rgb(243,124,32); }
+			100% { stop-color: rgb(159,53,147); }
+		}
+		@-webkit-keyframes leftGradient {
+			0% { stop-color: rgb(159,53,147); }
+			9% { stop-color: rgb(10,117,231); }
+			18% { stop-color: rgb(58,126,192); }
+			27% { stop-color: rgb(97,197,191); }
+			36% { stop-color: rgb(0,150,128); }
+			45% { stop-color: rgb(108,130,69); }
+			54% { stop-color: rgb(205,219,40); }
+			63% { stop-color: rgb(255,199,8); }
+			72% { stop-color: rgb(236,30,36); }
+			81% { stop-color: rgb(184,32,37); }
+			90% { stop-color: rgb(243,124,32); }
+			100% { stop-color: rgb(159,53,147); }
+		}
+		@-moz-keyframes leftGradient {
+			0% { stop-color: rgb(159,53,147); }
+			9% { stop-color: rgb(10,117,231); }
+			18% { stop-color: rgb(58,126,192); }
+			27% { stop-color: rgb(97,197,191); }
+			36% { stop-color: rgb(0,150,128); }
+			45% { stop-color: rgb(108,130,69); }
+			54% { stop-color: rgb(205,219,40); }
+			63% { stop-color: rgb(255,199,8); }
+			72% { stop-color: rgb(236,30,36); }
+			81% { stop-color: rgb(184,32,37); }
+			90% { stop-color: rgb(243,124,32); }
+			100% { stop-color: rgb(159,53,147); }
+		}
+		@keyframes rightGradient {
+			0% { stop-color: rgb(10,117,231); }
+			9% { stop-color: rgb(58,126,192); }
+			18% { stop-color: rgb(97,197,191); }
+			27% { stop-color: rgb(0,150,128); }
+			36% { stop-color: rgb(108,130,69); }
+			45% { stop-color: rgb(205,219,40); }
+			54% { stop-color: rgb(255,199,8); }
+			63% { stop-color: rgb(236,30,36); }
+			72% { stop-color: rgb(184,32,37); }
+			81% { stop-color: rgb(243,124,32); }
+			90% { stop-color: rgb(159,53,147); }
+			100% { stop-color: rgb(10,117,231); }
+		}
+		@-webkit-keyframes rightGradient {
+			0% { stop-color: rgb(10,117,231); }
+			9% { stop-color: rgb(58,126,192); }
+			18% { stop-color: rgb(97,197,191); }
+			27% { stop-color: rgb(0,150,128); }
+			36% { stop-color: rgb(108,130,69); }
+			45% { stop-color: rgb(205,219,40); }
+			54% { stop-color: rgb(255,199,8); }
+			63% { stop-color: rgb(236,30,36); }
+			72% { stop-color: rgb(184,32,37); }
+			81% { stop-color: rgb(243,124,32); }
+			90% { stop-color: rgb(159,53,147); }
+			100% { stop-color: rgb(10,117,231); }
+		}
+		@-moz-keyframes rightGradient {
+			0% { stop-color: rgb(10,117,231); }
+			9% { stop-color: rgb(58,126,192); }
+			18% { stop-color: rgb(97,197,191); }
+			27% { stop-color: rgb(0,150,128); }
+			36% { stop-color: rgb(108,130,69); }
+			45% { stop-color: rgb(205,219,40); }
+			54% { stop-color: rgb(255,199,8); }
+			63% { stop-color: rgb(236,30,36); }
+			72% { stop-color: rgb(184,32,37); }
+			81% { stop-color: rgb(243,124,32); }
+			90% { stop-color: rgb(159,53,147); }
+			100% { stop-color: rgb(10,117,231); }
+		}
+		
+		#left { -webkit-animation: leftGradient 30s infinite; animation: leftGradient 30s infinite; }
+		#right { -webkit-animation: rightGradient 30s infinite; animation: rightGradient 30s infinite; }
+	</style>
+
+	<linearGradient id="mastGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+		<stop stop-color="rgb(236,30,36)" offset="0%" id="left"></stop>
+		<stop stop-color="rgb(243,124,32)" offset="100%" id="right"></stop>
+	</linearGradient>
+	<rect id="masthead" x="0" y="0" width="100%" height="100%" style="fill:url(#mastGradient)" />
+</svg>
+
+
