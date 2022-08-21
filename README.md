@@ -8,3 +8,6 @@ Geko 2.0:
 
 Geko 3.0:
     -Finished the Image slider.
+
+Geko 3.1:
+    -Fixed some links in index.html.
