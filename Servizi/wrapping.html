@@ -9,6 +9,7 @@
 
         <link rel="icon" type="image/png" href="../Img/logo/background.jpg">
         <link rel="stylesheet" href="styleWrapping.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
@@ -20,12 +21,15 @@
     
     <body>
         <div class="container">
+
+            <!-------- HEADER -------->
+
             <header>
                 <nav>
                     <img src="../Img/logo/gekologositobianco.png" width="300px" height="50px" alt="Image not available">
                     
                     <ul class="menu">
-                        <nobr><li><a href="../Home Page/index.html" class="normal-text">HOME</a></li></nobr>    
+                        <nobr><li><a href="../index.html" class="normal-text">HOME</a></li></nobr>    
                         <nobr><li><a href="" class="normal-text" id="WRAP">CAR WRAPPING</a></li></nobr>
                         <nobr><li><a href="../Servizi/oscuramentoVetri.html" class="normal-text">OSCURAMENTO VETRI</a></li></nobr>    
                         <li><a href="../Materiali/materiali.html" class="normal-text">MATERIALI</a></li>    
@@ -38,6 +42,8 @@
                     <br>QUANDO PUOI WRAPPARE!</h3>
                 </figure>
             </header>
+
+            <!-------- HERO1 -------->
 
             <section class="Hero1">
                 <h4 class="med-text">Car Wrapping</h4>
@@ -52,7 +58,21 @@
                 <h4 class="normal-text">Perché non personalizzare il design con il wrapping?</h4>
                 <p style="margin: 0;">Tu sei unico e non c'è alcun motivo per cui non lo possa essere anche la tua auto. Con le pellicole per wrapping stampabili 3M potrai decorare la tua auto con un motivo tigrato, il tuo quadro preferito o qualcosa di unico disegnato da te. Grazie all'esperienza che noi di Geko Wrapping abbiamo ti possiamo aiutare a creare una grafica di forte impatto studiata appositamente per te.</p>
             </section>
+            
+            <!-------- IMAGE SLIDER -------->
+            <h2 id="slider">I NOSTRI LAVORI</h2>
+
+            <section class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                <div class="carousel-cell" id="ford"></div>
+                <div class="carousel-cell" id="mercedes-verde"></div>
+                <div class="carousel-cell" id="mercedes-nera"></div>
+                <div class="carousel-cell" id="militare"></div>
+                <div class="carousel-cell" id="suv"></div>
+                <div class="carousel-cell" id="spellicolamento"></div>
+            </section>
         </div>
+
+        <!-------- FOOTER -------->
 
         <footer>
             <ul>
@@ -81,7 +101,10 @@
 
             <img src="../Img/logo/gekologositobianco.png" style="margin-bottom: 20px;" width="300px" alt="Image not available">
         </footer>
-        
+
+        <!-------- JQUERY -------->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
         <script>
             ScrollReveal().reveal('.reveal', {distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)', interval: 500});
         </script>

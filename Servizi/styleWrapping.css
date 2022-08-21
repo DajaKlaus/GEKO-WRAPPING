@@ -31,6 +31,7 @@ a {text-decoration: none; color: #fff;}
     grid-column-end: 13;
     margin: 0;
     padding: 0;
+    padding-bottom: 40px;
     background-color: #181818;
     text-align: center;
     display: grid;
@@ -152,6 +153,55 @@ figure h3 {
 }
 
 .summary li {margin-top: 10px;}
+
+/* !Slider */
+
+#slider {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    color: rgb(154, 154, 154);
+    text-align: left;
+    padding: 0 20px;
+}
+
+.main-carousel {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+
+.carousel-cell {
+    margin: 0 20px;
+    width: 330px;
+    height: 240px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#ford {
+    background-image: url('../Img/lavori/ford-tettuccio.jpg');
+}
+
+#mercedes-verde {
+    background-image: url('../Img/lavori/maercedes-verde.jpg');
+}
+
+#mercedes-nera {
+    background-image: url('../Img/lavori/mercedes-nera.jpg');
+}
+
+#militare {
+    background-image: url('../Img/lavori/militare.jpg');
+}
+
+#suv {
+    background-image: url('../Img/lavori/suv.jpg');
+}
+
+#spellicolamento {
+    background-image: url('../Img/lavori/spellicolamento.jpg');
+}
 
 /* ! Footer */
 
