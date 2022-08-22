@@ -11,3 +11,6 @@ Geko 3.0:
 
 Geko 3.1:
     -Fixed some links in index.html.
+
+Geko 4.0:
+    -Finished Hero1 of oscuramentoVetri.html, but still need more information.
