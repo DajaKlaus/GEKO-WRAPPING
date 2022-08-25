@@ -19,7 +19,92 @@
     </head>
     <body>
         <div class="container">
+            <!-------- HEADER -------->
+
+            <header>
+                <nav>
+                    <img src="../Img/logo/gekologositobianco.png" width="300px" height="50px" alt="Image not available">
+                    
+                    <ul class="menu">
+                        <nobr><li><a href="../index.html" class="normal-text">HOME</a></li></nobr>    
+                        <nobr><li><a href="../Servizi/wrapping.html" class="normal-text">CAR WRAPPING</a></li></nobr>
+                        <nobr><li><a href="../Servizi/oscuramentoVetri.html" class="normal-text">OSCURAMENTO VETRI</a></li></nobr>    
+                        <li><a href="../Materiali/materiali.html" class="normal-text">MATERIALI</a></li>    
+                        <li><a href="" class="normal-text" id="CONTATTI">CONTATTI</a></li>    
+                    </ul>
+                </nav>
+            </header>
             
+            <!-------- HERO1 -------->
+            
+            <section class="Hero1">
+                <h1 class="med-text">CONTATTACI</h1>
+                <main class="contact">
+                    <a href="">
+                        <section class="email">
+                            <img src="../Img/png/005-email.png" style="margin-left: 0;" alt="Image not available">
+                            <hr class="hr-underImg">
+                            <h2>Manda un email</h2>
+                            <p>Risponderemo alla tua richiesta nell'arco di 48 ore. Alcune domande potrebbero però richiedere più tempo per fornirti una risposta adeguata.</p>
+                        </section>
+                    </a>
+                    <a href="tel:345-4169305">
+                        <section class="smartphone">
+                            <img src="../Img/png/006-mobile-phone.png" alt="Image not available">
+                            <hr class="hr-underImg">
+                            <h2>345-4169305</h2>
+                            <p>Chiama per parlare con noi dalle 8:00 alle 18:30 dal lunedì al venerdì.
+                            <br>Invece dalle 8:00 alle 12:00 il Sabato.</p>
+                        </section>
+                    </a>
+                    <a href="https://goo.gl/maps/c3SUEQsDVGc9Z36q7">
+                        <section class="place">
+                            <img src="../Img/png/004-placeholder.png" style="margin-right: 0;" alt="Image not available">
+                            <hr class="hr-underImg">
+                            <h2>Dove siamo</h2>
+                            <p>Ci trovi in Via Pellegrino Rossi 93 - Milano 20161 a 3 minuti dalla fermata della metro gialla "Affori Centro" presso l'esselunga di Affori.</p>
+                        </section>
+                    </a>
+                </main>
+            </section>
         </div>
+
+        <!-------- FOOTER -------->
+
+        <footer>
+            <ul>
+                <section>
+                    <nobr><h4 class="intro-text">su di noi</h4></nobr>
+                    <p>Noi di Geko Wrapping cerchiamo sempre di fare il meglio per i nostri clienti cercando di realizzare ogni loro richiesta e accettando le sfide più difficili per trovare soluzioni sempre migliori.</p>
+                </section>
+                <section>
+                    <nobr><h4 class="intro-text">supporto</h4></nobr>
+                    <a href="../Contact/contatti.html" style="color: rgb(154, 154, 154);">Contattaci</a>
+                    <a href="../Contact/mappa.html" style="color: rgb(154, 154, 154);">Mappa Sito</a>
+                </section>
+                <section>
+                    <nobr><h4 class="intro-text">dove siamo</h4></nobr>
+                    <a href="https://goo.gl/maps/c3SUEQsDVGc9Z36q7" style="color: rgb(154, 154, 154);">Via Pellegrino Rossi 93 - Milano 20161</a>
+                </section>
+                <section>
+                    <nobr><h4 class="intro-text">seguici</h4></nobr>
+                    <section id="social">
+                        <a href="https://www.instagram.com/gekowrapping/"><img src="../Img/png/002-instagram.png" width="30px" alt="Image not available"></a>
+                        <a href="https://www.facebook.com/Gekowrapping-107132401742166/"><img src="../Img/png/003-facebook.png" width="30px" alt="Image not available"></a>
+                        <a href="https://www.tiktok.com/@gekowrapping"><img src="../Img/png/001-tiktok.png" width="30px" alt="Image not available"></a>
+                    </section>
+                </section>
+            </ul>
+
+            <img src="../Img/logo/gekologositobianco.png" style="margin-bottom: 20px;" width="300px" alt="Image not available">
+        </footer>
+
+        <!-------- JQUERY -------->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            ScrollReveal().reveal('.reveal', {distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)', interval: 500});
+            ScrollReveal().reveal('.reveal2', {distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)', interval: 500});
+        </script>
     </body>
 </html>

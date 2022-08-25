@@ -17,3 +17,6 @@ Geko 4.0:
 
 Geko 5.0:
     -Finished materiali.html
+
+Geko 6.0:
+    -Finished Hero1 of contatti.html with all necessary information.
