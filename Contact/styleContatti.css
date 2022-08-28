@@ -90,7 +90,7 @@ nav img {
     background-color: #1e1d1d;
 }
 
-/* !Hero1 */
+/* ! Hero1 */
 
 .Hero1 {
     grid-column-start: 1;
@@ -157,6 +157,85 @@ nav img {
     color: rgb(154, 154, 154);
     margin: 5px 0;
     text-align: justify;
+}
+
+.hr-default {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+    width: 90%;
+    background-image: url('../Img/GradientBar.svg');
+    height: 3px;
+    border: none;    
+}
+
+/* ! Form Submit */
+
+.form-submit {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-content: left;
+    padding: 0 50px;
+    color: rgb(154, 154, 154);
+    display: grid;
+    gap: 1;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.introduction {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    text-align: left;
+}
+
+form {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    justify-self: left;
+    text-align: left;
+}
+
+.approved {
+    color: #fff;
+    font-size: 20px;
+    background-color: #47ff6f8f;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+.disapproved {
+    color: #fff;
+    font-size: 20px;
+    background-color: #ff47478f;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+form input, textarea {
+    font-family: 'Abel', sans-serif;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    width: 300px;
+    color: rgb(154, 154, 154);
+    background-color: #383838;
+    outline: none;
+    font-size: 18px;
+}
+
+form input[name="submit"] {
+    padding: 10px;
+    background: #383838;
+    color: rgb(154, 154, 154);
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 30px auto 0;
+    border-radius: 30px;
 }
 
 /* ! Footer */

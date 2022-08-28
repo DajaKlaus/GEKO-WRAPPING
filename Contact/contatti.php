@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
         
         <script src="../js/script.js"></script>
+        <script src="../js/convalida.js"></script>
         <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     </head>
@@ -38,9 +39,9 @@
             <!-------- HERO1 -------->
             
             <section class="Hero1">
-                <h1 class="med-text">CONTATTACI</h1>
+                <h1 class="med-text">CONTATTA GEKO-WRAPPING</h1>
                 <main class="contact">
-                    <a href="">
+                    <a href="#form-submit">
                         <section class="email">
                             <img src="../Img/png/005-email.png" style="margin-left: 0;" alt="Image not available">
                             <hr class="hr-underImg">
@@ -67,6 +68,50 @@
                     </a>
                 </main>
             </section>
+
+            <hr class="hr-default">
+
+            <!-------- FORM SUBMIT -------->
+
+            <section class="form-submit" id="form-submit">
+                <section class="introduction">
+                    <h2>Contattaci</h2>
+                    <p>Grazie per l'interesse dimostrato verso Geko-Wrapping. Per aiutarci a rispondere alle tue domande in modo efficace, ti chiediamo cortesemente di fornirci alcune informazioni. Le informazioni fornite verranno utilizzate per poter rispondere alla tua richiesta nel miglior modo possibile tramite e-mail oppure contattandoti tramite telefono da un nostro operatore</p>
+                </section>
+
+                <form action="send.php" method="post">
+                    <?php
+                        if (isset($_GET['invio'])) {
+                            if ($_GET['invio'] == "ok") {
+                    ?>
+                                <div class="approved">Grazie per averci scritto. Risponderemo alla sua email al più presto.</div>
+                    <?php
+                        } else {
+                    ?>
+                                <div class="disapproved">Si è verificato un errore durante l'invio dell'e-mail. Riprova oppure contatta info@gekowrapping.com</div>
+                    <?php
+                            }  
+                        }
+                    ?>
+
+                    <h3>Email</h3>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+
+                    <h3>Messaggio</h3>
+                    <textarea name="message" id="message" rows="5" placeholder="Inserisci qui il tuo messaggio"></textarea>
+
+                    <h3>Nome</h3>
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
+
+                    <h3>Cognome</h3>
+                    <input type="text" name="surname" id="surname" placeholder="Cognome" required>
+
+                    <h3>Numero di telefono</h3>
+                    <input type="tel" name="number" id="number" placeholder="Numero di telefono" required><br>
+
+                    <input type="submit" name="submit" id="submit" value="invia">
+                </form>
+            </section>
         </div>
 
         <!-------- FOOTER -------->
@@ -79,7 +124,7 @@
                 </section>
                 <section>
                     <nobr><h4 class="intro-text">supporto</h4></nobr>
-                    <a href="../Contact/contatti.html" style="color: rgb(154, 154, 154);">Contattaci</a>
+                    <a href="../Contact/contatti.php" style="color: rgb(154, 154, 154);">Contattaci</a>
                     <a href="../Contact/mappa.html" style="color: rgb(154, 154, 154);">Mappa Sito</a>
                 </section>
                 <section>
@@ -101,6 +146,7 @@
 
         <!-------- JQUERY -------->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
 
         <script>
             ScrollReveal().reveal('.reveal', {distance: '50px', duration: 1500, easing: 'cubic-bezier(0.5, 0, 0, 1)', interval: 500});

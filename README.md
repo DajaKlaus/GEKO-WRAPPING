@@ -16,7 +16,11 @@ Geko 4.0:
     -Finished Hero1 of oscuramentoVetri.html, but still need more information.
 
 Geko 5.0:
-    -Finished materiali.html
+    -Finished materiali.html.
 
 Geko 6.0:
     -Finished Hero1 of contatti.html with all necessary information.
+
+Geko 7.0:
+    -Contact form finished in contatti.php. 
+    -Added send.php for sending the email.
