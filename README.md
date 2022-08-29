@@ -24,3 +24,6 @@ Geko 6.0:
 Geko 7.0:
     -Contact form finished in contatti.php. 
     -Added send.php for sending the email.
+
+Geko 7.1:
+    -Small adjustaments done to the site.
