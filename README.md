@@ -27,3 +27,6 @@ Geko 7.0:
 
 Geko 7.1:
     -Small adjustaments done to the site.
+
+Geko 8.0: 
+    -oscuramentoVetri.html added some info in a hero2.

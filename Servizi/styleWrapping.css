@@ -52,6 +52,7 @@ header {
 nav {
     grid-column-start: 1;
     grid-column-end: 13;
+    z-index: 2;
     background-color: #0000009c;
     position: sticky;
     top: 0;
@@ -93,28 +94,48 @@ nav img {
     background-color: #1e1d1d;
 }
 
-figure {
+.upper-bar {
     grid-column-start: 1;
     grid-column-end: 13;
-    height: 400px;
+    z-index: 1;
+    position: relative;
     margin: 0;
-    background: url('../Img/lavori/Fanale.jpg') 
-        repeat fixed 100%;
-    background-size: 1350px;
-    justify-items: left;
-    text-align: left;
+    background: url('../Img/servizi/carwrapping.jpg') repeat fixed 100%;
+    background-position: center center;
+    background-size: cover;
+    height: 401px;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(12, 1fr);
 }
 
-figure h3 {
+.overlay{
     grid-column-start: 1;
     grid-column-end: 13;
-    margin: 10px 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.upperbar-inner {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    position: relative;
+    justify-self: center;
+}
+
+.site-header {
+    margin: 124px 0;
+    width: fit-content;
+}
+
+.site-header h3 {
+    margin: 0;
     color: rgb(196, 196, 196);
     font-weight: lighter;
-    text-shadow: 0 4px 2px #38282a;;
 }
 
 /* ! Hero1 */
