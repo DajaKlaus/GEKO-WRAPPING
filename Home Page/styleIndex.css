@@ -383,17 +383,9 @@ footer img {
     }
 
     .upper-bar {
-        grid-column-start: 1;
-        grid-column-end: 13;
-        z-index: 1;
-        position: relative;
         margin-top: 70px;
-        background: url('../Img/background/BackLamborghini.jpg') repeat fixed 100%;
         background-size: contain;
         height: 300px;
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(12, 1fr);
     }
 
     .site-header {

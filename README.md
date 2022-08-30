@@ -33,3 +33,6 @@ Geko 8.0:
 
 Geko 9.0:
     -Responsiveness for tablets on index.html completed.
+
+Geko 9.1:
+    -Responsiveness for tablets on wrapping.html completed.
