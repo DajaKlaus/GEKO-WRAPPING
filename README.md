@@ -36,3 +36,6 @@ Geko 9.0:
 
 Geko 9.1:
     -Responsiveness for tablets on wrapping.html completed.
+
+Geko 9.2:
+    -Responsiveness for tablets on oscuramentoVetri.html completed and made some adjustment.
