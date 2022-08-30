@@ -30,3 +30,6 @@ Geko 7.1:
 
 Geko 8.0: 
     -oscuramentoVetri.html added some info in a hero2.
+
+Geko 9.0:
+    -Responsiveness for tablets on index.html completed.
