@@ -42,3 +42,6 @@ Geko 9.2:
 
 Geko 9.3:
     -Responsiveness for tablets on materiali.html completed and made some changes to the pc's style.
+
+Geko 9.4:
+    -Responsiveness for tablets on contatti.php completed and made some changes to the pc's style.

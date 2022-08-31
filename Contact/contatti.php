@@ -33,6 +33,12 @@
                         <li><a href="../Materiali/materiali.html" class="normal-text">MATERIALI</a></li>    
                         <li><a href="" class="normal-text" id="CONTATTI">CONTATTI</a></li>    
                     </ul>
+                    
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
                 </nav>
             </header>
             
@@ -43,7 +49,9 @@
                 <main class="contact">
                     <a href="#form-submit">
                         <section class="email">
-                            <img src="../Img/png/005-email.png" style="margin-left: 0;" alt="Image not available">
+                            <center>
+                                <img src="../Img/png/005-email.png" style="margin-left: 0;" alt="Image not available">
+                            </center>
                             <hr class="hr-underImg">
                             <h2>Manda un email</h2>
                             <p>Risponderemo alla tua richiesta nell'arco di 48 ore. Alcune domande potrebbero però richiedere più tempo per fornirti una risposta adeguata.</p>
@@ -51,7 +59,9 @@
                     </a>
                     <a href="tel:345-4169305">
                         <section class="smartphone">
-                            <img src="../Img/png/006-mobile-phone.png" alt="Image not available">
+                            <center>
+                                <img src="../Img/png/006-mobile-phone.png" alt="Image not available">
+                            </center>
                             <hr class="hr-underImg">
                             <h2>345-4169305</h2>
                             <p>Chiama per parlare con noi dalle 8:00 alle 18:30 dal lunedì al venerdì.
@@ -60,7 +70,9 @@
                     </a>
                     <a href="https://goo.gl/maps/c3SUEQsDVGc9Z36q7">
                         <section class="place">
-                            <img src="../Img/png/004-placeholder.png" style="margin-right: 0;" alt="Image not available">
+                            <center>    
+                                <img src="../Img/png/004-placeholder.png" style="margin-right: 0;" alt="Image not available">
+                            </center>
                             <hr class="hr-underImg">
                             <h2>Dove siamo</h2>
                             <p>Ci trovi in Via Pellegrino Rossi 93 - Milano 20161 a 3 minuti dalla fermata della metro gialla "Affori Centro" presso l'esselunga di Affori.</p>
@@ -76,7 +88,7 @@
             <section class="form-submit" id="form-submit">
                 <section class="introduction">
                     <h2>Contattaci</h2>
-                    <p>Grazie per l'interesse dimostrato verso Geko-Wrapping. Per aiutarci a rispondere alle tue domande in modo efficace, ti chiediamo cortesemente di fornirci alcune informazioni. Le informazioni fornite verranno utilizzate per poter rispondere alla tua richiesta nel miglior modo possibile tramite e-mail oppure contattandoti tramite telefono da un nostro operatore</p>
+                    <p>Grazie per l'interesse dimostrato verso Geko-Wrapping. Per aiutarci a rispondere alle tue domande in modo efficace, ti chiediamo cortesemente di fornirci alcune informazioni. Le informazioni fornite verranno utilizzate per poter rispondere alla tua richiesta nel miglior modo possibile tramite e-mail oppure contattandoti tramite telefono da un nostro operatore.</p>
                 </section>
 
                 <form action="send.php" method="post">
