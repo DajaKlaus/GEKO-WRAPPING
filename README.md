@@ -26,7 +26,7 @@ Geko 7.0:
     -Added send.php for sending the email.
 
 Geko 7.1:
-    -Small adjustaments done to the site.
+    -Small adjustments done to the site.
 
 Geko 8.0: 
     -oscuramentoVetri.html added some info in a hero2.
@@ -39,3 +39,6 @@ Geko 9.1:
 
 Geko 9.2:
     -Responsiveness for tablets on oscuramentoVetri.html completed and made some adjustment.
+
+Geko 9.3:
+    -Responsiveness for tablets on materiali.html completed and made some changes to the pc's style.

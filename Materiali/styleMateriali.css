@@ -52,6 +52,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: 13;
     background-color: #0000009c;
+    align-items: center;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(12, 1fr);
@@ -90,6 +91,20 @@ nav img {
     background-color: #1e1d1d;
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
 header h3 {
     grid-column-start: 1;
     grid-column-end: 13;
@@ -125,12 +140,21 @@ header p {
     grid-template-columns: repeat(12, 1fr);
 }
 
-.Hero1 p {
+.text-info {
     grid-column-start: 1;
     grid-column-end: 13;
     color: rgb(154, 154, 154);
     font-size: 20px;
     font-weight: lighter;
+    margin: 0;
+}
+
+.text-materials {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: justify;
+    color: rgb(154, 154, 154); 
+    font-size: 20px;
     margin: 0;
 }
 
@@ -238,4 +262,102 @@ footer img {
     grid-column-start: 1;
     grid-column-end: 15;
     opacity: 60%;
+}
+
+/* Tablets */
+
+@media(max-width:821px){
+    /* ! Header */
+    
+    .hamburger {
+        grid-column: 12;
+        margin-right: 20px;
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) { /*second span desapper*/
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg); /*first span rotate of 45degres*/
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg); /*third span rotate of 45degres*/
+    }
+    
+    nav {
+        position: fixed;   
+        width: 581px; 
+        background-color: #000000;
+    }
+
+    .menu {
+        grid-column-start: 7;
+        grid-column-end: 12;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #000000;
+        width: 582.1px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .menu li {
+        margin: 9px 0;
+    }
+
+    .menu li a {
+        margin: 0;
+        padding: 10px 20px;
+    }
+
+    .menu.active {
+        left: 120px;
+    }
+
+    .upper-bar {
+        margin-top: 70px;
+        background-size: contain;
+        background-position: bottom;
+        height: 300px;
+    }
+    
+    .site-header {
+        margin: 112px 0;
+        width: fit-content;
+    }
+
+    header h3 {
+        margin-top: 90px;
+    }
+
+    #banner {
+        justify-self: center;
+        margin: 20px 0;
+        width: 80%;
+    }
+
+    /* ! Hero1 */
+    
+    .text-materials {
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+    .Hero1 img {
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+    /* ! Footer */
+
+    footer ul section {
+        margin: 0 20px;
+        padding: 0;
+    }
 }
