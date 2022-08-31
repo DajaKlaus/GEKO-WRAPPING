@@ -45,3 +45,7 @@ Geko 9.3:
 
 Geko 9.4:
     -Responsiveness for tablets on contatti.php completed and made some changes to the pc's style.
+
+Geko 10.0:
+    -Responsiveness for smartphone completed index.html.
+

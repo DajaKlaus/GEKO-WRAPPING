@@ -299,7 +299,14 @@ footer img {
 
 /* Tablets */
 
-@media(max-width:821px){
+@media(max-width:768px){
+    /* ! Container */
+
+    .container{
+        grid-column-start: 1;
+        grid-column-end: 15;
+    }
+
     /* ! Header */
     
     .hamburger {
@@ -322,7 +329,7 @@ footer img {
     
     nav {
         position: fixed;   
-        width: 581px; 
+        width: 100%; 
         background-color: #000000;
     }
 
@@ -335,7 +342,7 @@ footer img {
         gap: 0;
         flex-direction: column;
         background-color: #000000;
-        width: 582.1px;
+        width: 100%;
         text-align: center;
         transition: 0.3s;
     }
@@ -350,17 +357,18 @@ footer img {
     }
 
     .menu.active {
-        left: 120px;
+        left: 0;
     }
 
     .upper-bar {
         margin-top: 70px;
         background-size: contain;
-        height: 280px;
+        background-position: 0 70px;
+        height: 300px;
     }
     
     .site-header {
-        margin: 25px 0;
+        margin: 75px 0;
         width: fit-content;
     }
 

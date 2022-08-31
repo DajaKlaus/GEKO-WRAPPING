@@ -326,9 +326,16 @@ footer img {
     opacity: 60%;
 }
 
-/* Tablets */
+/* ! Tablet */
 
-@media(max-width:821px){
+@media screen and (max-width:821px){
+    /* ! Container */
+
+    .container{
+        grid-column-start: 1;
+        grid-column-end: 15;
+    }
+
     /* ! Header */
     
     .hamburger {
@@ -351,7 +358,7 @@ footer img {
     
     nav {
         position: fixed;   
-        width: 581px; 
+        width: 100%; 
         background-color: #000000;
     }
 
@@ -364,7 +371,7 @@ footer img {
         gap: 0;
         flex-direction: column;
         background-color: #000000;
-        width: 582.1px;
+        width: 100%;
         text-align: center;
         transition: 0.3s;
     }
@@ -379,12 +386,13 @@ footer img {
     }
 
     .menu.active {
-        left: 120px;
+        left: 0;
     }
 
     .upper-bar {
         margin-top: 70px;
         background-size: contain;
+        background-position: 0 50px;
         height: 300px;
     }
 
@@ -450,5 +458,86 @@ footer img {
     footer ul section {
         margin: 0 20px;
         padding: 0;
+    }
+}
+
+/* ! Smartphone */
+
+@media screen and (max-width:541px) {
+    /* ! Base Style */
+
+    .intro-text {font-size: 18px;}
+
+    /* ! Header */
+
+    nav img {
+        grid-column-end: 11;
+        width: 100%;
+        padding-left: 10px;
+        height: 40px;
+    }
+
+    .bar {
+        width: 20px;
+        height: 2px;
+    }
+
+    .upper-bar {
+        height: 120px;
+        background-position: 0 70px;
+    }
+
+    .site-header {
+        margin: 45px 0;
+    }
+
+    .site-header h3 {
+        font-size: 25px;
+    }
+
+    /* ! Hero1 */
+
+    #intro {
+        font-size: 25px;
+    }
+
+    #info {
+        font-size: 16px;
+    }
+
+    .hero1-details section {
+        width: 200px;
+        margin: 30px 0;
+        padding: 40px 20px;
+        padding-bottom: 60px;
+        background-color: #0d0d0d;
+    }
+
+    /* ! Hero2 */
+
+    #carWrapping {
+        width: 230px;
+    }
+
+    #carWrapping img {
+        width: 230px;
+    }
+
+    #oscuramentoVetri {
+        width: 230px;
+    }
+    
+    #oscuramentoVetri img {
+        width: 230px;
+    }
+
+    /* ! Footer */
+
+    footer ul {
+        display: block;
+    }
+
+    #GekoImg {
+        width: 200px;
     }
 }
