@@ -52,4 +52,5 @@ Geko 10.0:
 Geko 10.1:
     -Responsiveness for smartphone completed in wrapping.html, oscuramentoVetri.html and materiali.html.
 
-
+Geko 10.2:
+    -Responsiveness for smartphone completed in contatti.php. 

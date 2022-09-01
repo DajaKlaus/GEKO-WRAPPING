@@ -11,7 +11,7 @@ if ($name == "") {
     die();
 }
 
-$to = "dajaklaus33@gmail.com";
+$to = "info@gekowrapping.com";
 $subject = "Email da Geko-Wrapping";
 $message = "
 <h1>Messaggio dal sito:</h1>
