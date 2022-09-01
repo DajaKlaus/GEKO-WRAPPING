@@ -326,16 +326,9 @@ footer img {
     opacity: 60%;
 }
 
-/* ! Big-Tablet */
+/* ! Between Tablets and laptop */
 
-@media screen and (max-width:1025px) {
-    /* ! Container */
-
-    .container{
-        grid-column-start: 1;
-        grid-column-end: 15;
-    }
-
+@media screen and (max-width:1300px) {
     /* ! Header */
 
     nav img {
@@ -346,6 +339,19 @@ footer img {
     .menu li a {
         padding: 26px 12px;
     }
+}
+
+/* ! Big-Tablet */
+
+@media screen and (max-width:1100px) {
+    /* ! Container */
+
+    .container{
+        grid-column-start: 1;
+        grid-column-end: 15;
+    }
+
+    /* ! Header */
 
     .upper-bar {
         background-size: contain;

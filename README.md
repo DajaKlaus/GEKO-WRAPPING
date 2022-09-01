@@ -57,3 +57,6 @@ Geko 10.2:
 
 Geko 11.0: 
     -Responsiveness for big-Tablets finished in all styles.
+
+Geko 12.0:
+    -Responsiveness for special screen completed.
