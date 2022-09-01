@@ -326,6 +326,38 @@ footer img {
     opacity: 60%;
 }
 
+/* ! Big-Tablet */
+
+@media screen and (max-width:1025px) {
+    /* ! Container */
+
+    .container{
+        grid-column-start: 1;
+        grid-column-end: 15;
+    }
+
+    /* ! Header */
+
+    nav img {
+        width: 270px;
+        height: 50px;
+    }
+
+    .menu li a {
+        padding: 26px 12px;
+    }
+
+    .upper-bar {
+        background-size: contain;
+    }
+
+    /* ! Footer */
+
+    footer ul section {
+        margin: 0 40px;
+    }
+}
+
 /* ! Tablet */
 
 @media screen and (max-width:821px){

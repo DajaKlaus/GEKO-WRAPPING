@@ -54,3 +54,6 @@ Geko 10.1:
 
 Geko 10.2:
     -Responsiveness for smartphone completed in contatti.php. 
+
+Geko 11.0: 
+    -Responsiveness for big-Tablets finished in all styles.
