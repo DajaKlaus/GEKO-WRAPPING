@@ -152,7 +152,7 @@
                 </section>
             </ul>
 
-            <img src="../Img/logo/gekologositobianco.png" style="margin-bottom: 20px;" width="300px" alt="Image not available">
+            <img src="../Img/logo/gekologositobianco.png" id="GekoImg" style="margin-bottom: 20px;" width="300px" alt="Image not available">
         </footer>
 
         <!-------- JQUERY -------->

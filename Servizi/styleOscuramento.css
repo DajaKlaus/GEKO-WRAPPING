@@ -298,7 +298,7 @@ footer img {
 
 /* Tablets */
 
-@media(max-width:768px){
+@media(max-width:821px){
     /* ! Container */
 
     .container{
@@ -386,5 +386,66 @@ footer img {
     footer ul section {
         margin: 0 20px;
         padding: 0;
+    }
+}
+
+/* ! Smartphone */
+
+@media screen and (max-width:541px) {
+    /* ! Base Style */
+
+    .intro-text {font-size: 18px;}
+
+    /* ! Header */
+
+    nav img {
+        grid-column-end: 11;
+        width: 100%;
+        padding-left: 10px;
+        height: 40px;
+    }
+
+    .bar {
+        width: 20px;
+        height: 2px;
+    }
+
+    .upper-bar {
+        height: 120px;
+        background-position: 0 70px;
+    }
+
+    .site-header {
+        margin: 45px 0;
+    }
+
+    .site-header h3 {
+        font-size: 25px;
+    }
+
+    /* ! Hero1 */
+
+    .Hero1 h4 {
+        font-size: 30px;
+    }
+
+    .Hero1 p {
+        margin: 0;
+    }
+
+    /* ! Hero2 */
+
+    .details {
+        display: block;
+    }
+
+    /* ! Footer */
+
+    footer ul {
+        display: block;
+    }
+
+    #GekoImg {
+        width: 200px;
     }
 }

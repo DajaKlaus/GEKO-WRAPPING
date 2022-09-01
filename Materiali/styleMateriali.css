@@ -266,7 +266,7 @@ footer img {
 
 /* Tablets */
 
-@media(max-width:768px){
+@media(max-width:821px){
     /* ! Container */
 
     .container{
@@ -366,5 +366,72 @@ footer img {
     footer ul section {
         margin: 0 20px;
         padding: 0;
+    }
+}
+
+/* ! Smartphone */
+
+@media screen and (max-width:541px) {
+    /* ! Base Style */
+
+    .intro-text {font-size: 18px;}
+
+    /* ! Header */
+
+    nav img {
+        grid-column-end: 11;
+        width: 100%;
+        padding-left: 10px;
+        height: 40px;
+    }
+
+    .bar {
+        width: 20px;
+        height: 2px;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    #first-Text {
+        font-size: 18px;
+    }
+
+    #banner {
+        grid-column-start: 2;
+        grid-column-end: 12;
+    }
+
+    /* ! Hero1 */
+
+    .Hero1 {
+        grid-column-end: 13;
+        margin-top: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .text-info {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .text-materials {
+        grid-column-end: 13;
+    }
+
+    .Hero1 img {
+        width: 200px;
+    }
+
+    /* ! Footer */
+
+    footer ul {
+        display: block;
+    }
+
+    #GekoImg {
+        width: 200px;
     }
 }
