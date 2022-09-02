@@ -60,3 +60,6 @@ Geko 11.0:
 
 Geko 12.0:
     -Responsiveness for special screen completed.
+
+Geko 13.0:
+    -Deleted section warranty from index.html.
