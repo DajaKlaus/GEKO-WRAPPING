@@ -63,3 +63,6 @@ Geko 12.0:
 
 Geko 13.0:
     -Deleted section warranty from index.html.
+
+Geko 14.0:
+    -Removed prices and changed the description of the position.
