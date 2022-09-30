@@ -76,7 +76,7 @@
                             </center>
                             <hr class="hr-underImg">
                             <h2>Dove siamo</h2>
-                            <p>Ci trovi in Via Pellegrino Rossi 93 - Milano 20161 a 3 minuti dalla fermata della metro gialla "Affori Centro" presso l'esselunga di Affori.</p>
+                            <p>Ci trovi in Via Pellegrino Rossi 93 - Milano 20161 a 3 minuti dalla fermata della metro gialla "Affori Centro", dentro centro Midas presso benzinaio IP.</p>
                         </section>
                     </a>
                 </main>
