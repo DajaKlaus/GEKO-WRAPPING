@@ -73,3 +73,6 @@ Geko 15.0:
 
 Geko 15.1:
     -Added 2 images to the slider.
+
+Geko 15.2:
+    -Changed prices in oscuramentoVetri.html.
