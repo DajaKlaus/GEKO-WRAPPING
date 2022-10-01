@@ -76,3 +76,6 @@ Geko 15.1:
 
 Geko 15.2:
     -Changed prices in oscuramentoVetri.html.
+
+Geko 15.2.1:
+    -Made some small adjustments.
