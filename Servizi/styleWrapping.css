@@ -227,6 +227,14 @@ nav img {
     background-image: url('../Img/lavori/mercedes-nera.jpg');
 }
 
+#peugeot-front {
+    background-image: url('../Img/lavori/peugeot-front.jpg');
+}
+
+#peugeot-faro {
+    background-image: url('../Img/lavori/peugeot-faro.jpg');
+}
+
 #militare {
     background-image: url('../Img/lavori/militare.jpg');
 }

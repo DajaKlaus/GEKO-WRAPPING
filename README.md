@@ -65,8 +65,11 @@ Geko 13.0:
     -Deleted section warranty from index.html.
 
 Geko 14.0:
-<<<<<<< HEAD
-    -Created ".htaccess".
-=======
     -Removed prices and changed the description of the position.
->>>>>>> beade2f0b878274715fac334207fe855ad456bca
+
+Geko 15.0:
+    -Created ".htaccess".
+    -Resolved the problems with the socials' links.
+
+Geko 15.1:
+    -Added 2 images to the slider.
