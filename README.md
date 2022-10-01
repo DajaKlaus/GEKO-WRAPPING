@@ -79,3 +79,6 @@ Geko 15.2:
 
 Geko 15.2.1:
     -Made some small adjustments.
+    
+Geko 15.2.2:
+    -Deleted the prices for the films.
