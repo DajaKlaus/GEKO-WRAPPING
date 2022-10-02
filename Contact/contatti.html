@@ -47,16 +47,14 @@
             <section class="Hero1">
                 <h1 class="med-text">CONTATTA GEKO-WRAPPING</h1>
                 <main class="contact">
-                    <a href="#form-submit">
-                        <section class="email">
-                            <center>
-                                <img src="../Img/png/005-email.png" style="margin-left: 0;" alt="Image not available">
-                            </center>
-                            <hr class="hr-underImg">
-                            <h2>Manda un email</h2>
-                            <p>Risponderemo alla tua richiesta nell'arco di 48 ore. Alcune domande potrebbero però richiedere più tempo per fornirti una risposta adeguata.</p>
-                        </section>
-                    </a>
+                    <section class="email">
+                        <center>
+                            <img src="../Img/png/005-email.png" style="margin-left: 0;" alt="Image not available">
+                        </center>
+                        <hr class="hr-underImg">
+                        <h2>info@gekowrapping.com</h2>
+                        <p>Mandaci un'e-mail all'indirizzo qui sopra indicato e ti risponderemo alla tua richiesta nell'arco di 48 ore. Alcune domande potrebbero però richiedere più tempo per fornirti una risposta adeguata.</p>
+                    </section>
                     <a href="tel:345-4169305">
                         <section class="smartphone">
                             <center>
@@ -79,51 +77,21 @@
                         </section>
                     </a>
                 </main>
-            </section>
-
-            <hr class="hr-default">
-
-            <!-------- FORM SUBMIT -------->
-
-            <section class="form-submit" id="form-submit">
-                <section class="introduction">
-                    <h2>Contattaci</h2>
-                    <p>Grazie per l'interesse dimostrato verso Geko-Wrapping. Per aiutarci a rispondere alle tue domande in modo efficace, ti chiediamo cortesemente di fornirci alcune informazioni. Le informazioni fornite verranno utilizzate per poter rispondere alla tua richiesta nel miglior modo possibile tramite e-mail oppure contattandoti tramite telefono da un nostro operatore.</p>
+                <section class="cont-wa">
+                    <a href="https://wa.me/393454169305">
+                        <section class="whatsapp">
+                            <center>
+                                <img src="../Img/png/007-whatsapp.png"  alt="Image not available">
+                            </center>
+                            <hr class="hr-underImg">
+                            <h2>whatsapp</h2>
+                            <p>Contattaci anche su whatsapp al numero 345 416 9305. Ti rispnderemo il prima possibile.</p>
+                        </section>
+                    </a>  
                 </section>
-            
-                <form action="send.php" method="post">
-                    <?php
-                        if (isset($_GET['invio'])) {
-                            if ($_GET['invio'] == "ok") {
-                    ?>
-                                <div class="approved">Grazie per averci scritto. Risponderemo alla sua email al più presto.</div>
-                    <?php
-                        } else {
-                    ?>
-                                <div class="disapproved">Si è verificato un errore durante l'invio dell'e-mail. Riprova oppure contatta info@gekowrapping.com</div>
-                    <?php
-                            }  
-                        }
-                    ?>
-
-                    <h3>Email</h3>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
-
-                    <h3>Messaggio</h3>
-                    <textarea name="message" id="message" rows="5" placeholder="Inserisci qui il tuo messaggio"></textarea>
-
-                    <h3>Nome</h3>
-                    <input type="text" name="name" id="name" placeholder="Nome" required>
-
-                    <h3>Cognome</h3>
-                    <input type="text" name="surname" id="surname" placeholder="Cognome" required>
-
-                    <h3>Numero di telefono</h3>
-                    <input type="tel" name="number" id="number" placeholder="Numero di telefono" required><br>
-
-                    <input type="submit" name="submit" id="submit" value="invia">
-                </form>
             </section>
+
+            <hr class="hr-default">       
         </div>
 
         <!-------- FOOTER -------->
@@ -136,7 +104,7 @@
                 </section>
                 <section>
                     <nobr><h4 class="intro-text">supporto</h4></nobr>
-                    <a href="../Contact/contatti.php" style="color: rgb(154, 154, 154);">Contattaci</a>
+                    <a href="../Contact/contatti.html" style="color: rgb(154, 154, 154);">Contattaci</a>
                 </section>
                 <section>
                     <nobr><h4 class="intro-text">dove siamo</h4></nobr>

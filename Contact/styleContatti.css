@@ -173,6 +173,35 @@ nav img {
     text-align: center;
 }
 
+.cont-wa {
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
+.whatsapp img {
+    background-color: #505050;
+    padding: 20px 40px;
+    width: 220px;
+}
+
+
+.whatsapp h2 {
+    color: rgb(154, 154, 154);
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.whatsapp p {
+    color: rgb(154, 154, 154);
+    margin: 5px 0;
+    text-align: center;
+}
+
+.whatsapp:hover .hr-underImg {
+    visibility: visible;
+}
+
 .hr-default {
     grid-column-start: 1;
     grid-column-end: 13;
@@ -183,73 +212,6 @@ nav img {
     background-image: url('../Img/GradientBar.svg');
     height: 3px;
     border: none;    
-}
-
-/* ! Form Submit */
-
-.form-submit {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    justify-content: left;
-    color: rgb(154, 154, 154);
-    padding: 0 50px;
-    display: grid;
-    gap: 1;
-    grid-template-columns: repeat(12, 1fr);
-}
-
-.introduction {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    text-align: justify;
-}
-
-form {
-    grid-column-start: 1;
-    grid-column-end: 13;
-    justify-self: left;
-    text-align: left;
-}
-
-.approved {
-    color: #fff;
-    font-size: 20px;
-    background-color: #47ff6f8f;
-    padding: 20px 30px;
-    border-radius: 4px;
-}
-
-.disapproved {
-    color: #fff;
-    font-size: 20px;
-    background-color: #ff47478f;
-    padding: 20px 30px;
-    border-radius: 4px;
-}
-
-form input, textarea {
-    font-family: 'Abel', sans-serif;
-    border: 0;
-    border-radius: 4px;
-    padding: 10px 10px;
-    width: 300px;
-    color: rgb(154, 154, 154);
-    background-color: #383838;
-    outline: none;
-    font-size: 18px;
-}
-
-form input[name="submit"] {
-    padding: 10px;
-    background: #383838;
-    color: rgb(154, 154, 154);
-    font-size: 18px;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    width: 100px;
-    margin: 30px auto 0;
-    border-radius: 30px;
 }
 
 /* ! Footer */
@@ -328,6 +290,10 @@ footer img {
     /* ! Hero1 */
 
     .contact img {
+        width: 150px;
+    }
+
+    .whatsapp img {
         width: 150px;
     }
 
@@ -467,6 +433,14 @@ footer img {
         font-size: 20px;
     }
 
+    .whatsapp section {
+        margin-bottom: 20px;
+    }
+
+    .whatsapp p {
+        font-size: 20px;
+    }
+
     /* ! Footer */
 
     footer ul section {
@@ -507,14 +481,9 @@ footer img {
         width: 120px;
     }
 
-    /* ! Form submit */
-
-    form input, textarea {
-        grid-column-start: 1;
-        grid-column-end: 13;
-        width: 100%;
-        font-size: 16px;
-        padding: 9px;
+    .whatsapp img {
+        padding: 2px 15px;
+        width: 120px;
     }
 
     /* ! Footer */

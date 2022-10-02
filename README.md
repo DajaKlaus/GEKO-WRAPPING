@@ -85,3 +85,8 @@ Geko 15.2.2:
 
 Geko 15.3:
     -soon page.
+
+Geko 15.4:
+    -Removed the form contact in contact.php.
+    -Deleted send.php.
+    -Added the whatsapp contact area.
