@@ -35,7 +35,7 @@ $message = "
 
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-$headers .= 'From: dajaklaus33@gmail.com' . "\r\n";
+$headers .= 'From: ' . $email . "\r\n";
 
 if(mail($to, $subject, $message, $headers)){
     header('location: contatti.php?invio=ok');
@@ -44,5 +44,3 @@ if(mail($to, $subject, $message, $headers)){
     header('location: contatti.php?invio=no');
     die();
 }
-
-?>

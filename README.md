@@ -82,3 +82,6 @@ Geko 15.2.1:
     
 Geko 15.2.2:
     -Deleted the prices for the films.
+
+Geko 15.3:
+    -soon page.

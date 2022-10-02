@@ -15,7 +15,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
         
         <script src="../js/script.js"></script>
-        <script src="../js/convalida.js"></script>
         <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     </head>
@@ -91,7 +90,7 @@
                     <h2>Contattaci</h2>
                     <p>Grazie per l'interesse dimostrato verso Geko-Wrapping. Per aiutarci a rispondere alle tue domande in modo efficace, ti chiediamo cortesemente di fornirci alcune informazioni. Le informazioni fornite verranno utilizzate per poter rispondere alla tua richiesta nel miglior modo possibile tramite e-mail oppure contattandoti tramite telefono da un nostro operatore.</p>
                 </section>
-
+            
                 <form action="send.php" method="post">
                     <?php
                         if (isset($_GET['invio'])) {
